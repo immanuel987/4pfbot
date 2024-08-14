@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "Obidikechikadibia@gmail.com";
+global.email = "eolaniran7@gmail.com";
 global.location = "Ondo, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://toxicmd:toxxicmd12@toxic1239.04ozxeb.mongodb.net/?retryWrites=true&w=majority&appName=Toxic1239";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -16,10 +16,9 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Toxic1239/RIASGREMORYBOT";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/EBUvKfB.jpeg";
-global.devs = "33757054414";
-global.sudo = process.env.SUDO || "33757054414";
-global.owner = process.env.OWNER_NUMBER || "33757054414";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE ||https://telegra.ph/file/a5203a8e7fe02dd975e4f.jpg process.env.IMAGE ||https://telegra.ph/file/a5203a8e7fe02dd975e4f.jpg
+global.sudo = process.env.SUDO || "2349057163522";
+global.owner = process.env.OWNER_NUMBER || "2349057163522";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -32,7 +31,7 @@ global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -51,8 +50,8 @@ module.exports = {
   caption: process.env.CAPTION || "©ᴛᴏxxɪᴄ ᴍᴅ $",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOM",
-  ownername: process.env.OWNER_NAME || "VENOM",
+  botname: process.env.BOT_NAME || "4PF",
+  ownername: process.env.OWNER_NAME || "4PF",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
